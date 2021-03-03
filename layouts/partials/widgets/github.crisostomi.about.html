@@ -100,7 +100,7 @@
               <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
               <p class="institution">{{ .institution }}</p>
               <p class="grade">{{ .grade }}</p>
-              <p class="GPA">{{GPA .gpa}}</p>
+              <p class="GPA"><i>GPA</i> {{ .gpa }}</p>
             </div>
           </li>
           {{ end }}
